@@ -4,7 +4,7 @@ import pandas as pd
 import tensorflow as tf
 
 # Load the model for prediction
-model = tf.keras.models.load_model('customer_churn_ANNmodel.h5')
+model = tf.keras.models.load_model('customer_churn_ANNmodel(1).h5')
 
 # Streamlit app
 st.title('Customer Churn Prediction App ANN')
